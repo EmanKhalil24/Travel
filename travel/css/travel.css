@@ -1,0 +1,523 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 4500px;
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+.home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/natureforesttreesfog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .container {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .text {
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0.7;
+}
+.text p {
+  font-size: 1.25rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: system-ui;
+}
+.text button,
+.us .container .paragraph button,
+.fun .something button {
+  color: #ffffff !important;
+  background-color: #f67b6f !important;
+  padding: 1%;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  width: 23%;
+  height: 13%;
+  border-radius: 15px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 2%;
+}
+.text button:hover,
+.us .container .paragraph button:hover,
+.fun .something button:hover {
+  background-color: #fa9389 !important;
+}
+.container .image {
+  position: absolute;
+  width: 35%;
+  height: 55%;
+  top: 45%;
+}
+.container .image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.news {
+  position: absolute;
+  background: #f67b6f;
+  width: 100%;
+  height: 90%;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news .container {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+.news .container .newsTittle {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsTittle h3 {
+  color: white;
+  font-size: 55px;
+}
+.news .container .boxs {
+  position: absolute;
+  width: 100%;
+  height: 68%;
+  display: flex;
+  top: 17%;
+}
+.boxs div {
+  flex: 1;
+  background: rgb(255, 255, 255);
+  margin-left: 2%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px 2px rgb(184, 184, 184);
+}
+.boxs div img {
+  width: 88%;
+  height: 56%;
+  margin-top: 6%;
+  border-radius: 5px;
+}
+.boxs div img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.boxs div h5 {
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 10%;
+}
+.boxs div h5:hover {
+  color: #f67b6f;
+  transition: 0.2s;
+}
+.boxs div p {
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+  margin-top: -3%;
+}
+.news .container .button {
+  position: absolute;
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 87%;
+}
+.news .container .button button {
+  color: white;
+  background: transparent;
+  width: 12%;
+  height: 60%;
+  font-size: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 15px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.news .container .button button:hover {
+  background: white;
+  color: #f67b6f;
+}
+
+.us {
+  position: absolute;
+  background: #d3e1e0;
+  width: 100%;
+  height: 90%;
+  top: 190%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.us .container {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+.us .container .paragraph {
+  background: white;
+  width: 75%;
+  height: 60%;
+  position: absolute;
+  left: 25%;
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.us .container .paragraph h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+.us .container .paragraph p {
+  padding: 0 50px 0 330px;
+  line-height: 2;
+  font-size: 19px;
+  color: rgb(92, 92, 92);
+  font-weight: 500;
+  margin-top: -1%;
+}
+.us .container .paragraph button {
+  margin-top: -1%;
+  margin-left: -13%;
+  width: 18%;
+}
+.us .container .image {
+  width: 484px;
+  height: 484px;
+  position: absolute;
+  right: 52%;
+  top: 8%;
+}
+.us .container .image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.us .container .empty {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  right: 53%;
+  top: 73%;
+  border-radius: 50%;
+  background-color: #f67b6f;
+}
+
+.fun {
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 150%;
+  top: 280%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fun .emptyOne{
+    position: absolute;
+    background: #f67b6f;
+    width: 55%;
+    height: 45%;
+    left: 0%;
+    top: 0%;
+}
+.fun .emptyTwo {
+  position: absolute;
+  background-color: #d3e1e0;
+   width: 45%;
+  height: 35%;
+  right: 0%;
+  top: 14%;
+}
+.fun .container {
+  position: absolute;
+  width: 50%;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+    top: 8%;
+    left:22%;
+}
+.fun .container .img {
+  width: 592px;
+  height: 592px;
+}
+.fun .container .img img{
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+}
+.fun .something {
+    position: absolute;
+    background-color: #476160;
+    border-radius: 50px !important;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    width: 506px;
+    min-height: 495px;
+    top: 44%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(229, 229, 229);
+    font-family: 'Playfair Display', serif;
+}
+.fun .something h2{
+  font-size: 38px;
+  font-weight: 800;
+  word-spacing: 3px;
+  margin-top: -1%;
+}
+.fun .something p {
+  font-size: 22px;
+  line-height:1.6;
+  text-align:center;
+  margin: 2% 10% 5% 10%;
+}
+.fun .something button {
+  width: 25%;
+  padding: 2%;
+}
+.fun .text {
+  position: absolute;
+  width: 590px;
+  min-height: 320px;
+  top: 68%;
+  left: 11%;
+  color: #232f2f;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 1.5;
+  padding: 2% 4%;
+}
+.Newsletter{
+    position: absolute;
+    background-color: #d3e1e0;
+        width: 100%;
+      height: 165%;
+      top: 430%;
+}
+.Newsletter .img{
+    position: absolute;
+    width: 656px;
+    height: 656px;
+    background: #f67b6f;
+    top: 10%;
+    left: 19%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+}
+.Newsletter .img img {
+  width: 94%;
+  height: 94%;
+  border-radius: 50%;
+}
+.Newsletter .top{
+    position: absolute;
+    background: transparent;
+    top: 7%;
+    left: 50%;
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    border: 36px solid #f67b6f;
+}
+.Newsletter .bottom {
+  position: absolute;
+  background: #f67b6f;
+  top: 50%;
+  left: 18%;
+  border-radius: 50%;
+  width: 215px;
+  height: 215px;
+  z-index: 2;
+}
+.Newsletter .bottomTwo {
+  position: absolute;
+  background: transparent;
+  top: 75%;
+  left: 30%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 30px solid #f67a6f69;
+}
+.Newsletter .join {
+  position: absolute;
+  background: white;
+  top: 45%;
+  left: 44%;
+  width: 660px;
+  height: 615px;
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+  z-index: 2;
+  border-radius: 15px !important;
+}
+.Newsletter .join h2{
+  font-size: 50px;
+  font-family: serif;
+  padding: 0 8%;
+}
+.Newsletter .join .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+}
+.Newsletter .join .form form input{
+    width: 98%;
+    height: 18%;
+    background-color: #d3e1e0;
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px 12px;
+    margin: 2% 0;
+  }
+.join .form form input:focus,
+.join .form form textarea:focus
+{
+  outline: 2px solid black;
+}
+.join .form form textarea{
+    border-radius: 10px !important;
+    padding: 10px 12px;
+    background-color: #d3e1e0;
+    border: none;
+    width: 98%;
+}
+.Newsletter .join .form form label {
+    font-size:19px;
+    font-weight: normal;
+}
+.join .form form button{
+    width: 98%;
+    height: 15%;
+    margin-top: 4%;
+    border-radius: 10px !important;
+    color: #ffffff;
+  background: #f67b6f;
+  border: none;
+  font-size: 19px;
+}
+.join .form form button:hover{
+    color: #ffffff;
+      background: #000;
+}
+
+#up {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 500;
+}
+
+#up:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+ul{
+  border: 2px solid transparent;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 25px;
+  position: fixed;
+  left: 15px;
+  padding: 0;
+  background-color: #ddd;
+  margin: 16px auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  bottom: 7px;
+}
+ul li {
+    width: 49px;
+      height: 45px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 27px;
+      margin: 1%;
+}
+ul li.active,
+ul li:hover {
+    opacity: 1;
+}
+ul li:first-child {
+    background-color: #f67b6f;
+}
+ul li:nth-child(2) {
+    background-color: rgb(128, 0, 115);
+}
+ul li:nth-child(3) {
+    background-color: blue;
+}
+ul li:nth-child(4) {
+    background-color: black;
+}
